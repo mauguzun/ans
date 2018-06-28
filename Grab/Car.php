@@ -20,6 +20,20 @@ class Car extends Page{
 	
 	}
 	
+	/**
+	* 
+	* 
+	* @return true or false
+	*/
+	public function get_sold(){
+		$query = $this->_html->find('.sold',0);
+		if(count($query) > 0 )
+			return true;
+		
+		return FALSE;
+	}
+	
+	
 	
 	
 	

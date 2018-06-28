@@ -162,6 +162,15 @@ if ( get_post_meta(get_the_ID(), 'header', true) != 'no') echo avia_title(array(
 
 <a href="<?php echo $_SERVER['HTTP_REFERER'] ?>">Tilbake</a>
 
+		 <? if($page->get_sold()):?>
+		 <div class="avia-button-wrap avia-button-right ">
+            <a href="#" class="avia-button avia-icon_select-yes avia-color-red avia-size-large avia-position-right " target="_blank">
+              
+              <span class="avia_iconbox_title">Sold</span>
+            </a>
+          </div>
+		<? endif;?>
+
         <div  class="av_promobox avia-button-yes  avia-builder-el-4  el_after_av_one_full  avia-builder-el-last  ">
           <div class="avia-promocontent">
             <h3>

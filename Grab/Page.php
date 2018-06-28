@@ -6,7 +6,7 @@ include_once "simple_html_dom.php";
 class Page{
 	
 	protected $_clear_link = "https://www.finn.no/pw/search/car-norway?orgId=1556904584";
-	protected $_one_link = "https://www.finn.no/pw/ad/" ;
+	protected $_one_link = "https://www.finn.no/mc/scooter/ad.html?finnkode=96884903&fks=96884903" ;
 	
 	
 	protected $_count = 0;
